@@ -64,9 +64,9 @@
                                 @if ($password != null)
                                     {{-- <p wire:click="showPassword" class="absolute text-end text-sm cursor-pointer hover:text-slate-600 text-slate-800 font-semibold top-1/2 -translate-y-1/2 right-4">Show</p> --}}
                                     @if ($hidePw == false)
-                                        <p wire:click="hidePassword" class="absolute text-end text-sm cursor-pointer hover:text-slate-600 text-slate-800 font-semibold top-1/2 -translate-y-1/2 right-4">Hide</p>
+                                        <button wire:click="hidePassword" class="absolute text-end text-sm cursor-pointer hover:text-slate-600 text-slate-800 font-semibold top-1/2 -translate-y-1/2 right-4">Hide</button>
                                     @else
-                                        <p wire:click="showPassword" class="absolute text-end text-sm cursor-pointer hover:text-slate-600 text-slate-800 font-semibold top-1/2 -translate-y-1/2 right-4">Show</p>
+                                        <button wire:click="showPassword" class="absolute text-end text-sm cursor-pointer hover:text-slate-600 text-slate-800 font-semibold top-1/2 -translate-y-1/2 right-4">Show</button>
                                     @endif
                                 @endif
     

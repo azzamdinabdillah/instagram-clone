@@ -55,6 +55,7 @@ class Register extends Component
             'name' => $validatedData['name'],
             'username' => $validatedData['username'],
             'password' => $hashPw,
+            'image' => '/img/avatar-1.jpg',
         ]);
 
         if ($register) {

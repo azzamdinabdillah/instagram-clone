@@ -168,7 +168,7 @@
                                             {{ $row->comment }}
                                         </p>
                                         <div class="flex justify-start gap-3 text-xs mt-1.5">
-                                            <p class="text-slate-400">1d</p>
+                                            <p class="text-slate-400">{{ $row->created_at->diffForHumans() }}</p>
                                             <p class="text-slate-400">3 likes</p>
                                             <p class="text-slate-400">Reply</p>
                                         </div>
