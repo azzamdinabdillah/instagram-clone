@@ -1,4 +1,4 @@
-<div>
+<div class="bg-white">
     <div class="w-full h-screen flex justify-center items-center xl:bg-putih-gelap-dikit px-5 flex-row-reverse">
         <div class="xl:w-[25%] w-[80%]">
             <div class="xl:bg-white xl:border-2 xl:rounded xl:p-7">
