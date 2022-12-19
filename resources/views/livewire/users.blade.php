@@ -35,7 +35,7 @@
         @endforeach
 
         
-        <div class="flex justify-between items-center mt-3">
+        {{-- <div class="flex justify-between items-center mt-3">
             <div class="flex items-center gap-3 cursor-pointer">
                 <img src="/img/avatar-1.jpg" alt="" class="w-[15%] rounded-full">
                 <div class="">
@@ -45,6 +45,6 @@
             </div>
 
             <p class="text-blue-700 font-semibold text-sm cursor-pointer">Follow</p>
-        </div>
+        </div> --}}
     </div>
 </div>

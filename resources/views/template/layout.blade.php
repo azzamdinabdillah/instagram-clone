@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Instagram CLone</title>
     {{-- @vite('resources/css/app.css') --}}
 
     <link rel="stylesheet" href="/build/assets/app.37c7543d.css">
