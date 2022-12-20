@@ -23,7 +23,7 @@
                     <p class="text-2xl">{{ auth()->user()->username }}</p>
     
                     <div class="w-full border-2 py-1 mt-3 xl:w-[25%]">
-                        <a href="/logout" class="text-sm font-semibold text-center">Logout</p>
+                        <a href="/logout" class="text-sm font-semibold text-center">Logout</a>
                     </div>
     
                     {{-- <i class="fa-solid fa-gear text-2xl hidden xl:block"></i> --}}
