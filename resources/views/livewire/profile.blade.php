@@ -22,9 +22,10 @@
                 <div class="w-full xl:flex xl:gap-5 xl:items-center">
                     <p class="text-2xl">{{ auth()->user()->username }}</p>
     
-                    <div class="w-full border-2 py-1 mt-3 xl:w-[25%]">
-                        <a href="/logout" class="text-sm font-semibold text-center">Logout</a>
-                    </div>
+                    {{-- <div class="w-full border-2 py-1 mt-3 xl:w-[25%]">
+                        <a href="/logout" class="text-sm font-semibold text-center block">Logout</a>
+                    </div> --}}
+                    <a href="/logout" class="text-sm w-full border-2 py-1 mt-3 xl:w-[25%] font-semibold text-center block">Logout</a>
     
                     {{-- <i class="fa-solid fa-gear text-2xl hidden xl:block"></i> --}}
                 </div>
